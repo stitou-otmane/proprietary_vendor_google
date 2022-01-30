@@ -31,3 +31,5 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/vendor/firmware/synaptics_2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics_2.img \
     vendor/google/sargo/proprietary/vendor/lib/hw/sensors.sargo.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.sargo.so \
     vendor/google/sargo/proprietary/vendor/lib64/hw/sensors.sargo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.sargo.so
+PRODUCT_PACKAGES += \
+    CalculatorC

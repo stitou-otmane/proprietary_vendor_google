@@ -18,5 +18,16 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),sargo)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := CalculatorC
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/CalculatorC/calculator-1001000.apk
+LOCAL_CERTIFICATE := calculator
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
 
 endif
