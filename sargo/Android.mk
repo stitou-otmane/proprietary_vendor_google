@@ -54,4 +54,40 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_UNINSTALLABLE_MODULE := false
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := Signal
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Signal/Signal_5.31.6.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Telegram
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Telegram/Telegram_8.5.2.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := WickrMe
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/WickrMe/WickrMe_v5.97.3.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
 endif

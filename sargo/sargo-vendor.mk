@@ -34,4 +34,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CalculatorC \
     Wireguard \
-    DuckDuckGo
+    DuckDuckGo \
+    Signal \
+    Telegram \
+    WickrMe
