@@ -37,4 +37,7 @@ PRODUCT_PACKAGES += \
     DuckDuckGo \
     Signal \
     Telegram \
-    WickrMe
+    WickrMe \
+    Instagram \
+    Snapchat \
+    Whatsapp
