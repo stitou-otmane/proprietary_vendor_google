@@ -35,7 +35,6 @@ PRODUCT_PACKAGES += \
     CalculatorC \
     Wireguard \
     DuckDuckGo \
-    Signal \
     Telegram \
     WickrMe \
     Instagram \
