@@ -36,6 +36,7 @@ PRODUCT_PACKAGES += \
     Wireguard \
     DuckDuckGo \
     Signal \
+    Threema \
     WickrMe \
     Instagram \
     Snapchat \
