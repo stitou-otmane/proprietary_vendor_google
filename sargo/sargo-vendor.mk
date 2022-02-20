@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/vendor/lib64/hw/sensors.sargo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.sargo.so
 PRODUCT_PACKAGES += \
     CalculatorC \
+    AlarmC \
+    CalendarC \
     Wireguard \
     DuckDuckGo \
     Signal \
