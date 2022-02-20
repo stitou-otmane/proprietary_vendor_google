@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CalculatorC \
     AlarmC \
-    CalendarC \
     Wireguard \
     DuckDuckGo \
     Signal \
