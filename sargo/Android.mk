@@ -43,18 +43,6 @@ LOCAL_UNINSTALLABLE_MODULE := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := CalendarC
-LOCAL_MODULE_OWNER := token
-LOCAL_SRC_FILES := proprietary/vendor/app/CalendarC/calendar-1000000.apk
-LOCAL_CERTIFICATE := calculator
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_UNINSTALLABLE_MODULE := false
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := Wireguard
 LOCAL_MODULE_OWNER := token
 LOCAL_SRC_FILES := proprietary/vendor/app/Wireguard/Wireguard_1.0.20211029.apk
