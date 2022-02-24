@@ -21,7 +21,7 @@ ifeq ($(TARGET_DEVICE),sargo)
 include $(CLEAR_VARS)
 LOCAL_MODULE := CalculatorC
 LOCAL_MODULE_OWNER := token
-LOCAL_SRC_FILES := proprietary/vendor/app/CalculatorC/calculator-1002001.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/CalculatorC/calculator-1002005.apk
 LOCAL_CERTIFICATE := calculator
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -148,17 +148,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_UNINSTALLABLE_MODULE := false
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := CustomApps
-LOCAL_MODULE_OWNER := token
-LOCAL_SRC_FILES := proprietary/vendor/app/CustomApps/Apps.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 endif

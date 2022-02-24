@@ -40,5 +40,4 @@ PRODUCT_PACKAGES += \
     Threema \
     Instagram \
     Snapchat \
-    Whatsapp \
-    CustomApps
+    Whatsapp
