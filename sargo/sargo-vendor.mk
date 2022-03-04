@@ -40,6 +40,4 @@ PRODUCT_PACKAGES += \
     Threema \
     Instagram \
     Snapchat \
-    Whatsapp \
-    WickrMe \
-    Telegram
+    Whatsapp
