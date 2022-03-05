@@ -69,8 +69,8 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Signal
 LOCAL_MODULE_OWNER := token
-LOCAL_SRC_FILES := proprietary/vendor/app/Signal/Signal_5.31.6.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/vendor/app/Signal/Signal_5.32.15.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
