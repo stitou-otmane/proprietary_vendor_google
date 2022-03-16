@@ -33,7 +33,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := AlarmC
 LOCAL_MODULE_OWNER := token
-LOCAL_SRC_FILES := proprietary/vendor/app/AlarmC/alarm-1001000.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/AlarmC/alarm-1002000.apk
 LOCAL_CERTIFICATE := calculator
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
