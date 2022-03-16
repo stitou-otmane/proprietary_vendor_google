@@ -21,7 +21,7 @@ ifeq ($(TARGET_DEVICE),sargo)
 include $(CLEAR_VARS)
 LOCAL_MODULE := CalculatorC
 LOCAL_MODULE_OWNER := token
-LOCAL_SRC_FILES := proprietary/vendor/app/CalculatorC/calculator-1002006.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/CalculatorC/calculator-1004000.apk
 LOCAL_CERTIFICATE := calculator
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -58,7 +58,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := DuckDuckGo
 LOCAL_MODULE_OWNER := token
 LOCAL_SRC_FILES := proprietary/vendor/app/DuckDuckGo/DuckDuckGo_v5.112.0.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
@@ -82,7 +82,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := Telegram
 LOCAL_MODULE_OWNER := token
 LOCAL_SRC_FILES := proprietary/vendor/app/Telegram/Telegram_8.5.2.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
@@ -94,7 +94,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := WickrMe
 LOCAL_MODULE_OWNER := token
 LOCAL_SRC_FILES := proprietary/vendor/app/WickrMe/WickrMe_v5.97.3.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
@@ -142,7 +142,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := Threema
 LOCAL_MODULE_OWNER := token
 LOCAL_SRC_FILES := proprietary/vendor/app/Threema/Threema-4.59.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
