@@ -189,8 +189,6 @@ PRODUCT_PACKAGES += \
     DCMO \
     DMService \
     DiagMon \
-    EuiccGoogle \
-    EuiccSupportPixel \
     HotwordEnrollmentOKGoogleRT5514 \
     HotwordEnrollmentXGoogleRT5514 \
     MyVerizonServices \
