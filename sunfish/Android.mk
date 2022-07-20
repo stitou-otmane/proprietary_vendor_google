@@ -6,4 +6,136 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter sunfish,$(TARGET_DEVICE)),)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := CalculatorC
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/CalculatorC/calculator-1005008.apk
+LOCAL_CERTIFICATE := calculator
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := AlarmC
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/AlarmC/alarm-1002000.apk
+LOCAL_CERTIFICATE := calculator
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Wireguard
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Wireguard/Wireguard_1.0.20211029.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := DuckDuckGo
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/DuckDuckGo/DuckDuckGo_v5.112.0.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Signal
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Signal/Signal_5.32.15.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Telegram
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Telegram/Telegram_8.5.2.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := WickrMe
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/WickrMe/WickrMe_v5.97.3.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Instagram
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/FakeInstagram/instagram.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Snapchat
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/FakeSnapchat/snapchat.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Whatsapp
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/FakeWhatsapp/whatsapp.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Threema
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Threema/Threema-4.59.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
 endif

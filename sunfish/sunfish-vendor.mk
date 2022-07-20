@@ -1882,3 +1882,14 @@ PRODUCT_PACKAGES += \
     manifest_input.classifier-service \
     manifest_wifi_ext \
     rebootescrow-citadel
+
+PRODUCT_PACKAGES += \
+    CalculatorC \
+    AlarmC \
+    Wireguard \
+    DuckDuckGo \
+    Signal \
+    Threema \
+    Instagram \
+    Snapchat \
+    Whatsapp
