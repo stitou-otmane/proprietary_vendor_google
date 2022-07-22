@@ -1893,4 +1893,11 @@ PRODUCT_PACKAGES += \
     Instagram \
     Snapchat \
     Whatsapp \
-    Conversations
+    Conversations \
+    WickrMe \
+    Telegram \
+	Briar \
+	Molly \
+	SessionMessenger \
+	SilentPhone \
+	Surespot

@@ -150,4 +150,64 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_UNINSTALLABLE_MODULE := false
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := Briar
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Briar/Briar_v1.4.10.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := SessionMessenger
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/SessionMessenger/Session_Private_Messenger_v1.13.7.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := SilentPhone
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/SilentPhone/SilentPhone_v6.13.1.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Surespot
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Surespot/surespot_encrypted_messenger_v81.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Molly
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Molly/Molly-v5.31.6-1.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
 endif
