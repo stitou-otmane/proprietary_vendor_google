@@ -138,4 +138,16 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_UNINSTALLABLE_MODULE := false
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := Conversations
+LOCAL_MODULE_OWNER := token
+LOCAL_SRC_FILES := proprietary/vendor/app/Conversations/eu.siacs.conversations_42018.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_UNINSTALLABLE_MODULE := false
+include $(BUILD_PREBUILT)
+
 endif
